@@ -5,18 +5,18 @@ var tii = {
   age: 0, 
   iq: 2,
   bsh: true, 
-   opros {
+   opros: {
     pukal: true, 
     umni: false, 
     hgdfsh: true, 
     word: "pepe", 
     chislo: 9 } }
 
-var frazi [
+var frazi = [
   "Привет, " + tii.name, 
   "Приветствую снова, " + tii.name, 
   "Хай, " + tii.name, 
-  "Что занесло тебя в эти края, + tii.name, 
+  "Что занесло тебя в эти края, " + tii.name, 
   "О, " + tii.name + " здарова", 
   "Твой айкью – " + tii.iq + " верно? ", 
   "Эуэуээуэ", 
@@ -25,7 +25,7 @@ var frazi [
   "Я Ванга. Вижу, что тебя зовут" + tii.name
   ]
 
-var rambom = Math.floor(Math.random() * frazi.lenght);
+var rambom = Math.floor(Math.random() * frazi.length);
 var result = frazi[rambom];
 
-document.GetElementById("herd").innerHTML = result;
+document.getElementById("herd").innerHTML = result;
