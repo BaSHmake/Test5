@@ -10,3 +10,6 @@ var tii = {
     hgdfsh: true, 
     word: "pepe", 
     chislo: 9 } }
+var frazi [
+  "Привет, " + tii.name, 
+  "Приветствую снова, " + tii.name, 
