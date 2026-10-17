@@ -1,1 +1,16 @@
+body {
+background: rgba(255, 100, 20, 0.5);
+}
 
+header {
+background: linear-gradient(#ff9696, red, orange, #995555);
+width: 100%;
+height: 200px;
+border: 3px solid black;
+border-radius: 15px;
+color: black;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+  
