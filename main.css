@@ -21,7 +21,7 @@ html {
 --herd: linear-gradient(#ff9696, red, orange, #909090);
 }
 
-if(temno = true) {
+html:has(#temno:checked) {
 --bobi: rgba(50, 50, 50, 0.5);
 --txt: white;
 --herd: #aaaaaa;
