@@ -14,4 +14,16 @@ align-items: center;
 justify-content: center;
 padding: 20px
 }
+
+html {
+--bobi: rgba(255, 40, 0, 0.5);
+--txt: black;
+--herd: linear-gradient(#ff9696, red, orange, #909090);
+}
+
+if(temno = true) {
+--bobi: rgba(50, 50, 50, 0.5);
+--txt: white;
+--herd: #aaaaaa;
+}
   
