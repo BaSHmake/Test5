@@ -12,18 +12,6 @@ var tii = {
     word: "pepe", 
     chislo: 9 } }
 
-html {
---bobi: rgba(255, 40, 0, 0.5);
---txt: black;
---herd: linear-gradient(#ff9696, red, orange, #909090);
-}
-
-if(temno = true) {
---bobi: rgba(50, 50, 50, 0.5);
---txt: white;
---herd: #aaaaaa;
-}
-
 var frazi = [
   "Привет, " + tii.name, 
   "Приветствую снова, " + tii.name, 
