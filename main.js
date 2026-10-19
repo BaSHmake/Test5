@@ -29,3 +29,7 @@ var rambom = Math.floor(Math.random() * frazi.length);
 var result = frazi[rambom];
 
 document.getElementById("herd").innerHTML = result;
+
+function baga() {
+
+{
