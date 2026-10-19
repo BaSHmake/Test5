@@ -1,5 +1,7 @@
 body {
 background: var(--bobi);
+display: flex;
+align-items: center;
 }
 
 header {
@@ -15,14 +17,30 @@ justify-content: center;
 padding: 20px
 }
 
+#temno {
+display: none;
+}
+
+#moon {
+display: block;
+width: 80px;
+height: 40px;
+background: var(--moon);
+color: var(--txt2);
+}
+
 html {
 --bobi: rgba(255, 40, 0, 0.5);
 --txt: black;
 --herd: linear-gradient(#ff9696, red, orange, #909090);
+--moon: rgb(140, 140, 250);
+--txt2: silver;
 }
 
 html:has(#temno:checked) {
 --bobi: rgba(50, 50, 50, 0.5);
 --txt: white;
 --herd: #aaaaaa;
+--moon: rgb(200, 200, 255);
+--txt2: silver;
 }
