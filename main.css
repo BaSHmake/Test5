@@ -14,7 +14,7 @@ color: var(--txt);
 display: flex;
 align-items: center;
 justify-content: center;
-padding: 20px
+padding: 20px;
 }
 
 #temno {
@@ -30,7 +30,7 @@ color: var(--txt2);
 }
 
 html {
---bobi: rgba(255, 40, 0, 0.5);
+--bobi: rgba(255, 20, 0, 0.5);
 --txt: black;
 --herd: linear-gradient(#ff9696, red, orange, #909090);
 --moon: rgb(140, 140, 250);
@@ -38,7 +38,7 @@ html {
 }
 
 html:has(#temno:checked) {
---bobi: rgba(50, 50, 50, 0.5);
+--bobi: rgba(140, 140, 140, 0.5);
 --txt: white;
 --herd: #aaaaaa;
 --moon: rgb(200, 200, 255);
