@@ -18,7 +18,7 @@ padding: 20px;
 }
 
 #temno {
-display: none;
+display: none !important;
 }
 
 #moon {
