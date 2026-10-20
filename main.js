@@ -34,5 +34,5 @@ function baga() {
 var BAG = document.getElementById("baga"); 
 var x = (Math.random() -0.50) * 300;
 var y = (Math.random() -0.50) * 300;
-BAG.stile.transform = 'translate(${x}px, ${y}px';
+BAG.style.transform = `translate(${x}px, ${y}px)`;
 }
