@@ -31,5 +31,8 @@ var result = frazi[rambom];
 document.getElementById("herd").innerHTML = result;
 
 function baga() {
-
-{
+var BAG = document.getElementById("baga"); 
+var x = (Math.random() -0.50) * 300;
+var y = (Math.random() -0.50) * 300;
+BAG.stile.transform = 'translate(${x}px, ${y}px';
+}
