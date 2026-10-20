@@ -1,4 +1,3 @@
-var random = (Math.random() - 0.5) * 400;
-var x = random;
-var y = random;
-var BALL = document.getElementById("ball"); 
+var x = (Math.random() - 0.5) * 400;
+var y = (Math.random() - 0.5) * 400;
+var BALL = document.querySelector (".ball"); 
