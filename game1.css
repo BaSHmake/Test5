@@ -24,6 +24,11 @@ height: 70px;
 background: yellow;
 margin-top: 50px;
 box-shadow: 10px 10px #7777ff;
+border-radius: 15px;
+}
+
+#hidCheck {
+display: none;
 }
 
 #intro:has(#hidCheck:checked) {
