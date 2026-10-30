@@ -1,6 +1,8 @@
 body {
 background: var(--bobi);
 display: flex;
+gap: 25px;
+padding: 10px;
 align-items: center;
 flex-direction: column;
 }
@@ -44,4 +46,14 @@ html:has(#temno:checked) {
 --herd: #aaaaaa;
 --moon: rgb(200, 200, 255);
 --txt2: silver;
+}
+
+a {
+display: inline-block;
+padding: 15px 30px;
+background: linear-gradient(30deg, blue, green);
+color: black;
+border: solid black 1.5px;
+border-radius: 7px;
+text-decoration: none;
 }
