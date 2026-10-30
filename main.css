@@ -33,6 +33,24 @@ color: var(--txt2);
 border: double grey 1.5px;
 }
 
+a {
+display: inline-block;
+padding: 15px 30px;
+background: var(--a);
+color: var(--txt);
+border: solid black 1.5px;
+border-radius: 7px;
+text-decoration: none;
+}
+
+#baga {
+width: 100px;
+height: 75px;
+border: grey;
+border-radius: 30%;
+
+}
+
 html {
 --bobi: rgba(255, 20, 0, 0.5);
 --txt: black;
@@ -49,14 +67,4 @@ html:has(#temno:checked) {
 --moon: rgb(60, 60, 255);
 --txt2: silver;
 --a: grey;
-}
-
-a {
-display: inline-block;
-padding: 15px 30px;
-background: var(--a);
-color: black;
-border: solid black 1.5px;
-border-radius: 7px;
-text-decoration: none;
 }
