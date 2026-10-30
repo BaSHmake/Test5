@@ -26,10 +26,11 @@ display: none !important;
 
 #moon {
 display: block;
-width: 80px;
-height: 40px;
+width: 175px;
+height: 75px;
 background: var(--moon);
 color: var(--txt2);
+border: double grey 1.5px;
 }
 
 html {
@@ -38,6 +39,7 @@ html {
 --herd: linear-gradient(#ff9696, red, orange, #909090);
 --moon: rgb(140, 140, 250);
 --txt2: silver;
+--a: linear-gradient(30deg, blue, green);
 }
 
 html:has(#temno:checked) {
@@ -46,12 +48,13 @@ html:has(#temno:checked) {
 --herd: #aaaaaa;
 --moon: rgb(200, 200, 255);
 --txt2: silver;
+--a: grey;
 }
 
 a {
 display: inline-block;
 padding: 15px 30px;
-background: linear-gradient(30deg, blue, green);
+background: var(--a);
 color: black;
 border: solid black 1.5px;
 border-radius: 7px;
