@@ -46,7 +46,7 @@ html:has(#temno:checked) {
 --bobi: rgba(140, 140, 140, 0.5);
 --txt: white;
 --herd: #aaaaaa;
---moon: rgb(200, 200, 255);
+--moon: rgb(60, 60, 255);
 --txt2: silver;
 --a: grey;
 }
