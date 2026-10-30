@@ -37,7 +37,7 @@ transform: translateY(7.5px), translateX(7.5px);
 display: none;
 }
 
-#intro:has(#hidCheck:checked) {
+#intro:has(#hidChek:checked) {
 display: none;
 }
 
